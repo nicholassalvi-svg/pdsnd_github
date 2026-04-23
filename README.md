@@ -24,10 +24,10 @@ _Not included in repository_ - The city bike share data files will have to be so
 
 ### Credits
 The resources below were references in the development of the Bike Share Data program:
-www.python.org
-pandas.pydata.org
-www.w3schools.com
-www.google.com
-www.stackoverflow.com
+- www.python.org
+- pandas.pydata.org
+- www.w3schools.com
+- www.google.com
+- www.stackoverflow.com
 www.reddit.com
 
