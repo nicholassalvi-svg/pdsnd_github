@@ -11,6 +11,9 @@ The program has an interactive prompt that guides users through the process of a
 
 Once the data file is loaded and filtered appropriately, the user will be able to view summary bike share statistics for the data they loaded and/or display some of the raw data depending on their selections.
 
+### Prerequisites
+In order to run this program, one must have Python, NumPy, and Pandas installed on their computer. Anaconda is one recommended Python distribution that includes all of the requisite libraries.
+
 ### Files used
 bikeshare.py - The Bike Share Data Python program.
 
