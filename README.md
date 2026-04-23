@@ -14,6 +14,11 @@ Once the data file is loaded and filtered appropriately, the user will be able t
 ### Files used
 bikeshare.py - The Bike Share Data Python program.
 
+_Not included in repository_ - The city bike share data files will have to be sourced from Motivate/Udacity:
+chicago.csv
+new_york_city.csv
+washington.csv
+
 ### Credits
 The resources below were references in the development of the Bike Share Data program:
 www.python.org
