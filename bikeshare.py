@@ -25,7 +25,8 @@ def print_start_screen():
     print('=====================')
     print()
     print('Welcome!')
-    print('This program allows you to explore bikeshare data.')    
+    print('This program allows you to explore bikeshare data.')
+    print('This project is hosted on GitHub at https://github.com/nicholassalvi-svg/pdsnd_github')    
     print()
 
 
