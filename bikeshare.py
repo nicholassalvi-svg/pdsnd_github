@@ -134,9 +134,9 @@ def get_filters():
      
     print('SELECTED FILTERS')
     print()
-    print(f'City: {CITY_DATA[city][0].title()}')
+    print(f'City:  {CITY_DATA[city][0].title()}')
     print(f'Month: {MONTH_DATA[month].title() if month is not None else "None"}')
-    print(f'Day: {DAY_DATA[day].title() if day is not None else "None"}')
+    print(f'Day:   {DAY_DATA[day].title() if day is not None else "None"}')
     print()
 
     return(filter_opt, city, month, day)
