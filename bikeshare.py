@@ -25,7 +25,8 @@ def print_start_screen():
     print('=====================')
     print()
     print('Welcome!')
-    print('This program allows you to explore bikeshare data.')    
+    print('This program allows you to explore bikeshare data.')
+    print('This project is hosted on GitHub at https://github.com/nicholassalvi-svg/pdsnd_github')    
     print()
 
 
@@ -133,9 +134,9 @@ def get_filters():
      
     print('SELECTED FILTERS')
     print()
-    print(f'City: {CITY_DATA[city][0].title()}')
+    print(f'City:  {CITY_DATA[city][0].title()}')
     print(f'Month: {MONTH_DATA[month].title() if month is not None else "None"}')
-    print(f'Day: {DAY_DATA[day].title() if day is not None else "None"}')
+    print(f'Day:   {DAY_DATA[day].title() if day is not None else "None"}')
     print()
 
     return(filter_opt, city, month, day)
@@ -166,7 +167,7 @@ def check_option(option, options):
 
 
 
-def hour12_display(h):
+def display_12hour(h):
      '''Displays an hour as a string in 12 hour format.'''
 
      h =int(h)
@@ -262,7 +263,7 @@ def summary_stats(df, city_raw_columns):
      most_common_hours = start_hours.mode()
      hours_ct = start_hours.value_counts()
      most_common_hours_ct = list(hours_ct[most_common_hours])
-     most_common_hour_display = [hour12_display(h) for h in most_common_hours]
+     most_common_hour_display = [display_12hour(h) for h in most_common_hours]
      print(f'Most common hour(s) of day: {', '.join(most_common_hour_display)}')
      print(', '.join(f'{x:,}' for x in most_common_hours_ct), 'trips')
 
