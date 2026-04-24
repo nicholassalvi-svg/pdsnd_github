@@ -167,7 +167,7 @@ def check_option(option, options):
 
 
 
-def hour12_display(h):
+def display_12hour(h):
      '''Displays an hour as a string in 12 hour format.'''
 
      h =int(h)
@@ -263,7 +263,7 @@ def summary_stats(df, city_raw_columns):
      most_common_hours = start_hours.mode()
      hours_ct = start_hours.value_counts()
      most_common_hours_ct = list(hours_ct[most_common_hours])
-     most_common_hour_display = [hour12_display(h) for h in most_common_hours]
+     most_common_hour_display = [display_12hour(h) for h in most_common_hours]
      print(f'Most common hour(s) of day: {', '.join(most_common_hour_display)}')
      print(', '.join(f'{x:,}' for x in most_common_hours_ct), 'trips')
 
